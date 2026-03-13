@@ -1,6 +1,8 @@
 # Jecht-Rotations
 Jecht Rotations
 
+New to developing rotations, I'm trying it out in my free time, which I don't have much of. I'll post updates as soon as I can.
+
 Fire Mage WASD :
 
   v1.1:
