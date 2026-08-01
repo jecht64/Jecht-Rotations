@@ -20,7 +20,7 @@ Not having many devs in raid rota healing, I decided to give it a go! I welcome 
 
 Raid talent 12.0.7 : CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzMLLbDzMGzMzMDzYB2gZsox2AYGYzMMw2YmZaWWmZWMjhZZmHYmxgZZAAAgZmBzMAwgB
 
-Best heal parses : 95 and 98ilvl with 286ilvl only one embelish / not optimal stats and gear (mine)
+Best mythic raid heal parses : 95 and 98ilvl with 286ilvl only one embelish / not optimal stats and gear (mine)
 
   v1.1:
   - OOC added : Skyfury / Water shield / EarthLiving Weapon / Tidecaller's Guard / Earth Shield
