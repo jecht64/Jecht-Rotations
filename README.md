@@ -25,6 +25,7 @@ Manual use : CD as Ascendance / SLT / Purify / Wind rush totem / Wind Shear (rai
 
 => Queue macro : 
 <img width="229" height="51" alt="image" src="https://github.com/user-attachments/assets/acaac21a-4c6d-4ee4-a4a2-6ec2cc8a562a" /> /cast [@Cursor] Totemic Projection
+
 And queue macro for Healing rain / Surging Totem if you want preshot damage inc
 
 
