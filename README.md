@@ -10,7 +10,8 @@ Learning to do rotation with others dev rotation, S*** Expressions and guide, AI
 
 Not having many devs in raid rota healing, I decided to give it a go! I welcome constructive comments and please bear with me.
 
-> Resto Shaman RAID : OK version 1.11
+>  <img width="29" height="27" alt="image" src="https://github.com/user-attachments/assets/c47be15d-f363-4a0c-9f85-05bbfe2bf94a" />
+Resto Shaman RAID : OK version 1.11
 
 > Holy Paladin RAID : In progress
 
