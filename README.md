@@ -19,7 +19,7 @@ Not having many devs in raid rota healing, I decided to give it a go! I welcome 
 ----------------------------------------------------------------------------------------------------------------
 **==> Restoration Shaman RAID only <==** (Seem's ready for 12.1)
 
-<u>Raid talent 12.0.7 : </u> CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzMLLbDzMGzMzMDzYB2gZsox2AYGYzMMw2YmZaWWmZWMjhZZmHYmxgZZAAAgZmBzMAwgB
+<u>Raid talent 12.0.7</u>: CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzMLLbDzMGzMzMDzYB2gZsox2AYGYzMMw2YmZaWWmZWMjhZZmHYmxgZZAAAgZmBzMAwgB
 
 Best mythic raid heal parses : 95 and 98ilvl with 286ilvl only one embelish / not optimal stats and gear (mine)
 
