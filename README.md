@@ -10,12 +10,16 @@ Learning to do rotation with others dev rotation, S*** Expressions and guide, AI
 
 Not having many devs in raid rota healing, I decided to give it a go! I welcome constructive comments and please bear with me.
 
-Resto Shaman RAID : OK version 1.11
-Holy Paladin RAID : In progress
-Holy Priest RAID : In Future
+> Resto Shaman RAID : OK version 1.11
 
+> Holy Paladin RAID : In progress
+
+> Holy Priest RAID : In Future
+----------------------------------------------------------------------------------------------------------------
 ==> Restoration Shaman RAID only <== (Seem's ready for 12.1)
+
 Raid talent 12.0.7 : CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzMLLbDzMGzMzMDzYB2gZsox2AYGYzMMw2YmZaWWmZWMjhZZmHYmxgZZAAAgZmBzMAwgB
+
 Best heal parses : 95 and 98ilvl with 286ilvl only one embelish / not optimal stats and gear (mine)
 
   v1.1:
