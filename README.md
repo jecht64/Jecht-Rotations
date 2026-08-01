@@ -35,7 +35,7 @@ Best mythic raid heal parses : 95 and 98ilvl with 286ilvl only one embelish / no
  <img width="155" height="179" alt="image" src="https://github.com/user-attachments/assets/fbcdf1fb-6fda-4cd3-9792-fd284f5a1a04" />
 
   
-/!\ // Recommend \\ /!\ 
+/!\ / Recommend \ /!\ 
 
 => Manual use : CD as Ascendance / SLT / Purify / Wind rush totem / Wind Shear (raid interrupt) / Spiritwalker's Grace / Ghost wolf
 
