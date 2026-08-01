@@ -14,7 +14,8 @@ Restoration shaman RAID only :
   - Burst heal with config : Nature's swiftness + Unleash Life + Chain Heal
   - Many Custom Slider's : Hp% and count target  (default is my settings)
   - Mana efficiency option : require riptide for chain heal
-  - Mouseover healing spell : Selector <img width="155" height="179" alt="image" src="https://github.com/user-attachments/assets/fbcdf1fb-6fda-4cd3-9792-fd284f5a1a04" />
+  - Mouseover healing spell : Selector
+  <img width="155" height="179" alt="image" src="https://github.com/user-attachments/assets/fbcdf1fb-6fda-4cd3-9792-fd284f5a1a04" />
 
   
 => Recommend :
