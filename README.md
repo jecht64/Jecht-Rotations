@@ -2,9 +2,10 @@
 <img width="252" height="251" alt="image" src="https://github.com/user-attachments/assets/55f8305a-14f8-47cc-a1e9-aed0a41c792c" />
 
 
-New to developing rotations, I'm trying it out in my free time, which I don't have much of. I'll post updates as soon as I can.
+New to developing rotations, I'm trying it out in my free time, which I don't have much of. I'll post updates as soon as I can. 
+Learning to do rotation with others dev rota and AI
 
-==> Restoration Shaman RAID only <==
+==> Restoration Shaman RAID only <== (Seem's ready for 12.1)
 
   v1.1:
   - OOC added : Skyfury / Water shield / EarthLiving Weapon / Tidecaller's Guard / Earth Shield
@@ -14,15 +15,17 @@ New to developing rotations, I'm trying it out in my free time, which I don't ha
   - Burst heal with config : Nature's swiftness + Unleash Life + Chain Heal
   - Many Custom Slider's : Hp% and count target  (default is my settings)
   - Mana efficiency option : require riptide for chain heal
+  - Dps Filler with slider
   - Mouseover healing spell : Selector
  <img width="155" height="179" alt="image" src="https://github.com/user-attachments/assets/fbcdf1fb-6fda-4cd3-9792-fd284f5a1a04" />
 
   
 => Recommend :
-Manual use : CD as Ascendance / SLT / Purify / Wind rush totem / Wind Shear (raid interrupt)
+Manual use : CD as Ascendance / SLT / Purify / Wind rush totem / Wind Shear (raid interrupt) / Spiritwalker's Grace / Ghost wolf
 
 => Queue macro : 
 <img width="229" height="51" alt="image" src="https://github.com/user-attachments/assets/acaac21a-4c6d-4ee4-a4a2-6ec2cc8a562a" /> /cast [@Cursor] Totemic Projection
+And queue macro for Healing rain / Surging Totem if you want preshot damage inc
 
 
 
