@@ -41,6 +41,7 @@ Best mythic raid heal parses : 95 and 98ilvl with 286ilvl only one embelish / no
 => Manual use : CD as Ascendance / SLT / Purify / Wind rush totem / Wind Shear (raid interrupt) / Spiritwalker's Grace / Ghost wolf
 
 => Queue macro : 
+
 <img width="229" height="51" alt="image" src="https://github.com/user-attachments/assets/acaac21a-4c6d-4ee4-a4a2-6ec2cc8a562a" /> /cast [@Cursor] Totemic Projection ,for replacement ST/HR
 
 And queue macro for Healing rain / Surging Totem if you want preshot damage inc
