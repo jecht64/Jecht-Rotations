@@ -2,13 +2,21 @@
 <img width="252" height="251" alt="image" src="https://github.com/user-attachments/assets/55f8305a-14f8-47cc-a1e9-aed0a41c792c" />
 
 
-New to developing rotations, I'm trying it out in my free time, which I don't have much of. 
+New to developing rotations, I'm trying it out in my free time, which I don't have much of.
 
-I'll post updates as soon as I can. 
+I'll post updates as soon as I can.
 
-Learning to do rotation with others dev rota and AI
+Learning to do rotation with others dev rotation, S*** Expressions and guide, AI.
+
+Not having many devs in raid rota healing, I decided to give it a go! I welcome constructive comments and please bear with me.
+
+Resto Shaman RAID : OK version 1.11
+Holy Paladin RAID : In progress
+Holy Priest RAID : In Future
 
 ==> Restoration Shaman RAID only <== (Seem's ready for 12.1)
+Raid talent 12.0.7 : CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzMLLbDzMGzMzMDzYB2gZsox2AYGYzMMw2YmZaWWmZWMjhZZmHYmxgZZAAAgZmBzMAwgB
+Best heal parses : 95 and 98ilvl with 286ilvl only one embelish / not optimal stats and gear (mine)
 
   v1.1:
   - OOC added : Skyfury / Water shield / EarthLiving Weapon / Tidecaller's Guard / Earth Shield
@@ -23,7 +31,7 @@ Learning to do rotation with others dev rota and AI
  <img width="155" height="179" alt="image" src="https://github.com/user-attachments/assets/fbcdf1fb-6fda-4cd3-9792-fd284f5a1a04" />
 
   
-/// Recommend \\\ 
+/!\// Recommend \\/!\ 
 
 => Manual use : CD as Ascendance / SLT / Purify / Wind rush totem / Wind Shear (raid interrupt) / Spiritwalker's Grace / Ghost wolf
 
