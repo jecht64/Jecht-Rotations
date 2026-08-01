@@ -17,7 +17,7 @@ Not having many devs in raid rota healing, I decided to give it a go! I welcome 
 > <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/eafa3879-1efa-4a20-8a95-038140403baf" /> Holy Priest RAID : In Future
 
 ----------------------------------------------------------------------------------------------------------------
-==> Restoration Shaman RAID only <== (Seem's ready for 12.1)
+**==> Restoration Shaman RAID only <==** (Seem's ready for 12.1)
 
 Raid talent 12.0.7 : CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzMLLbDzMGzMzMDzYB2gZsox2AYGYzMMw2YmZaWWmZWMjhZZmHYmxgZZAAAgZmBzMAwgB
 
