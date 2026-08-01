@@ -4,7 +4,7 @@
 
 New to developing rotations, I'm trying it out in my free time, which I don't have much of. I'll post updates as soon as I can.
 
-Restoration shaman RAID only :
+==> Restoration Shaman RAID only <==
 
   v1.1:
   - OOC added : Skyfury / Water shield / EarthLiving Weapon / Tidecaller's Guard / Earth Shield
@@ -19,6 +19,12 @@ Restoration shaman RAID only :
 
   
 => Recommend :
+Manual use : CD as Ascendance / SLT / Purify / Wind rush totem / Wind Shear (raid interrupt)
+=> Queue macro : 
+<img width="229" height="51" alt="image" src="https://github.com/user-attachments/assets/acaac21a-4c6d-4ee4-a4a2-6ec2cc8a562a" /> /cast [@Cursor] Totemic Projection
+
+
+
 -------------------------------------------------------------------------------------------------------
 
 Priest Holy : 
