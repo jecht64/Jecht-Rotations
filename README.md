@@ -23,7 +23,7 @@ Not having many devs in raid rota healing, I decided to give it a go! I welcome 
 
 Best mythic raid heal parses : 95 and 98ilvl with 286ilvl only one embelish / not optimal stats and gear (mine)
 
-  v1.1:
+  v1.11:
   - OOC added : Skyfury / Water shield / EarthLiving Weapon / Tidecaller's Guard / Earth Shield
   - Utility : Earth Shield Tank Selector.
   - Logic for optimal healing (Tidal waves buff / Coalesting Water) / Snipping Heal on riptide for buff +15% heal
