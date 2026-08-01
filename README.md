@@ -1,5 +1,7 @@
 # Jecht-Rotations
-Jecht Rotations
+Jecht Rotations <img width="252" height="251" alt="image" src="https://github.com/user-attachments/assets/55f8305a-14f8-47cc-a1e9-aed0a41c792c" />
+
+
 
 New to developing rotations, I'm trying it out in my free time, which I don't have much of. I'll post updates as soon as I can.
 
