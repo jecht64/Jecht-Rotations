@@ -48,12 +48,6 @@ And queue macro for Healing rain / Surging Totem if you want preshot damage inc
 
 -------------------------------------------------------------------------------------------------------
 
-Priest Holy : 
 
- v1.2.1:
-  - OOC heal added Disc-style (Fortitude + PoM + top-off heals).
-  - Angelic Feather combat-only
-  - Serenity priority enforced before Flash Heal/Benediction.
-    
 
   - ---------------------------------------------------------------------------------------------------
