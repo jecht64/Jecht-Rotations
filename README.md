@@ -67,7 +67,7 @@ Best mythic raid heal parses : Many 95 + with 290 ilvl / with semi retribution g
 
   v1.121:
   - OOC added : Devotion and Crusader aura when mount / auto Beacon Tank / Rite of Sanctification
-  - Utility : LOH and BoS Selector roles (Tank / Heal / Dps) 
+  - Utility : BoS Selector roles (Tank / Heal / Dps) 
   - Logic for optimal healing (Hand of divinity / Infusion of light/ Divine toll logic) 
   - Mana management recovery with SotR
   - Tier Set : OK
