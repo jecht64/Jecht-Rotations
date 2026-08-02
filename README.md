@@ -19,16 +19,16 @@ Not having many devs in raid rota healing, I decided to give it a go! I welcome 
 
 >  <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/c47be15d-f363-4a0c-9f85-05bbfe2bf94a" /> Resto Shaman RAID : OK version 1.11
 
-> <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/2867f7a6-6524-4b9d-8b15-4955d06eb40e" /> Holy Paladin RAID : In progress
+> <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/2867f7a6-6524-4b9d-8b15-4955d06eb40e" /> Holy Paladin RAID : OK version 1.12
 
-> <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/eafa3879-1efa-4a20-8a95-038140403baf" /> Holy Priest RAID : In Future
+> <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/eafa3879-1efa-4a20-8a95-038140403baf" /> Holy Priest RAID : maybe in Future
 
 ----------------------------------------------------------------------------------------------------------------
 **==> Restoration Shaman RAID only <==** (Seem's ready for 12.1)
 
 *Raid talent 12.0.7: CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzMLLbDzMGzMzMDzYB2gZsox2AYGYzMMw2YmZaWWmZWMjhZZmHYmxgZZAAAgZmBzMAwgB
 
-Best mythic raid heal parses : 95 and 98ilvl with 286ilvl only one embelish / not optimal stats and gear (mine)
+Best mythic raid heal parses : 95 and 98ilvl with 286ilvl only one embelish / not optimal stats and gear
 
   v1.11:
   - OOC added : Skyfury / Water shield / EarthLiving Weapon / Tidecaller's Guard / Earth Shield
@@ -58,10 +58,12 @@ And queue macro for Healing rain / Surging Totem if you want preshot damage inc
 -------------------------------------------------------------------------------------------------------
 **==> Paladin Holy RAID only <==**
 
-*Raid talent 12.0.7 : 
+*Raid talent 12.0.7 : CEEAVg1HmQqr1Dwlv86ljju8vCAAAYBAMAAglxMzYGzMzGjxYWGbzMLzoJGzYmZYY2yAwAG2AbsMjZWmtZmZrBAAAYBA2MMmxMAAgZGmxY0A
 
-  v1.11:
-  - OOC added : Devotion and Crusader aura when mount / Beacon Tank / Rite of Sanctification
+Best mythic raid heal parses : Many 95 + with 290 ilvl / with semi retribution gear
+
+  v1.12:
+  - OOC added : Devotion and Crusader aura when mount / auto Beacon Tank / Rite of Sanctification
   - Utility : LOH and BoS Selector roles (Tank / Heal / Dps) 
   - Logic for optimal healing (Hand of divinity / Infusion of light/ Divine toll logic) 
   - Mana management recovery with SotR
