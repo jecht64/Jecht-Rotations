@@ -13,7 +13,7 @@ Not having many devs in raid rota healing, I decided to give it a go! I welcome 
 ----------------------------------------------------------------------------------------------------------------
 > I highly recommend using the Clique addon as well, and setting up a modifier key via its in-game interface.
 
-> This allows you to manually cast spells—such as dispels—by pausing the automation while you cast (e.g., using Shift as the modifier, so the Clique binding becomes Shift + Left Click).
+> This allows you to manually cast spells—such as dispels—by pausing the automation while you cast (e.g., using Shift as the modifier, so the Clique binding becomes Shift + Left Click for example with Cleanse spell).
 
 ----------------------------------------------------------------------------------------------------------------
 
