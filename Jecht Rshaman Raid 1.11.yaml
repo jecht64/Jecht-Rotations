@@ -23,7 +23,7 @@ config:
     type: slider
     min: 0
     max: 100
-    default: 55
+    default: 60
 
   earth_shield_target:
     section: "2. Earth Shield"
