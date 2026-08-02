@@ -154,7 +154,7 @@ config:
     type: slider
     min: 1
     max: 20
-    default: 4
+    default: 3
 
   holy_shock_hp:
     section: "3. Healing Spells"
@@ -210,7 +210,7 @@ config:
     type: slider
     min: 1
     max: 100
-    default: 97
+    default: 99
 
   mouseover_spells:
     section: "4. Mouseover Options"
