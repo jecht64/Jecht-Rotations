@@ -19,7 +19,7 @@ Not having many devs in raid rota healing, I decided to give it a go! I welcome 
 
 >  <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/c47be15d-f363-4a0c-9f85-05bbfe2bf94a" /> Resto Shaman RAID : OK version 1.11
 
-> <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/2867f7a6-6524-4b9d-8b15-4955d06eb40e" /> Holy Paladin RAID : OK version 1.12
+> <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/2867f7a6-6524-4b9d-8b15-4955d06eb40e" /> Holy Paladin RAID : OK version 1.121
 
 > <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/eafa3879-1efa-4a20-8a95-038140403baf" /> Holy Priest RAID : maybe in Future
 
@@ -65,7 +65,7 @@ By default, the finisher is set to LoD; if you're using WoG, raise that slider t
 
 Best mythic raid heal parses : Many 95 + with 290 ilvl / with semi retribution gear
 
-  v1.12:
+  v1.121:
   - OOC added : Devotion and Crusader aura when mount / auto Beacon Tank / Rite of Sanctification
   - Utility : LOH and BoS Selector roles (Tank / Heal / Dps) 
   - Logic for optimal healing (Hand of divinity / Infusion of light/ Divine toll logic) 
