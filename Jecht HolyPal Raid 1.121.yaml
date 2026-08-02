@@ -1,4 +1,4 @@
-version: "1.12"
+version: "1.121"
 spec: 65
 name: "JECHT Holy Paladin - Raid (Herald)"
 description: " JECHT Holy Paladin - Mythic Raid- Patch 12.0.7"
@@ -33,19 +33,6 @@ config:
     min: 1
     max: 100
     default: 20
-
-  loh_targets:
-    section: "1. Emergency & Defensives"
-    label: "LOH Allowed Roles"
-    type: multi_select
-    options:
-      - label: "Tanks"
-        value: 0
-      - label: "Healers"
-        value: 1
-      - label: "DPS"
-        value: 2
-    default: [0, 1, 2]
 
   blessing_of_sacrifice_hp:
     section: "1. Emergency & Defensives"
@@ -106,7 +93,7 @@ config:
     type: slider
     min: 1
     max: 20
-    default: 5
+    default: 4
 
   holy_prism_hp:
     section: "2. Major Cooldowns"
@@ -122,7 +109,7 @@ config:
     type: slider
     min: 1
     max: 20
-    default: 4
+    default: 3
 
   aura_mastery_hp:
     section: "2. Major Cooldowns"
@@ -146,7 +133,7 @@ config:
     type: slider
     min: 1
     max: 100
-    default: 90
+    default: 91
 
   dt_injured_count:
     section: "2. Major Cooldowns"
@@ -194,7 +181,7 @@ config:
     type: slider
     min: 1
     max: 100
-    default: 30
+    default: 35
 
   flash_of_light_hp:
     section: "3. Healing Spells"
@@ -210,7 +197,7 @@ config:
     type: slider
     min: 1
     max: 100
-    default: 99
+    default: 98
 
   mouseover_spells:
     section: "4. Mouseover Options"
@@ -284,9 +271,7 @@ lists:
     - gift_of_the_naaru,cycle=members,if=group.lowest.health.pct<=60
     - divine_shield,interrupt=true,if=health.pct<config.divine_shield_hp&!debuff.forbearance.up
     - divine_protection,if=health.pct<config.divine_protection_hp&cooldown.divine_protection.ready
-    - lay_on_hands,cycle=tanks,interrupt=true,use_off_gcd=1,if=config.loh_targets.has(0)&cycle.health.effective.pct<config.lay_on_hands_hp&player.combat&cooldown.lay_on_hands.ready&cycle.range<=40
-    - lay_on_hands,cycle=healers,interrupt=true,use_off_gcd=1,if=config.loh_targets.has(1)&cycle.health.effective.pct<config.lay_on_hands_hp&player.combat&cooldown.lay_on_hands.ready&cycle.range<=40
-    - lay_on_hands,cycle=dps,interrupt=true,use_off_gcd=1,if=config.loh_targets.has(2)&cycle.health.effective.pct<config.lay_on_hands_hp&player.combat&cooldown.lay_on_hands.ready&cycle.range<=40
+    - lay_on_hands.focus,range_check=focus,interrupt=true,use_off_gcd=1,if=focus.exists&focus.alive&focus.friendly&focus.health.effective.pct<config.lay_on_hands_hp&focus.range<=40&player.combat&cooldown.lay_on_hands.ready
     - blessing_of_sacrifice,cycle=tanks,if=config.bos_targets.has(0)&cycle.health.effective.pct<config.blessing_of_sacrifice_hp&health.pct>config.bos_self_hp&cycle.range<=40
     - blessing_of_sacrifice,cycle=healers,if=config.bos_targets.has(1)&cycle.health.effective.pct<config.blessing_of_sacrifice_hp&health.pct>config.bos_self_hp&cycle.range<=40
     - blessing_of_sacrifice,cycle=dps,if=config.bos_targets.has(2)&cycle.health.effective.pct<config.blessing_of_sacrifice_hp&health.pct>config.bos_self_hp&cycle.range<=40
