@@ -8,7 +8,14 @@ I'll post updates as soon as I can.
 
 Learning to do rotation with others dev rotation, S*** Expressions and guide, AI.
 
-Not having many devs in raid rota healing, I decided to give it a go! I welcome constructive comments and please bear with me.
+Not having many devs in raid rota healing, I decided to give it a go! I welcome constructive comments on discord
+
+----------------------------------------------------------------------------------------------------------------
+>>=====> I highly recommend using the Clique addon as well, and setting up a modifier key via its in-game interface.
+
+This allows you to manually cast spells—such as dispels—by pausing the automation while you cast (e.g., using Shift as the modifier, so the Clique binding becomes Shift + Left Click).
+
+----------------------------------------------------------------------------------------------------------------
 
 >  <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/c47be15d-f363-4a0c-9f85-05bbfe2bf94a" /> Resto Shaman RAID : OK version 1.11
 
@@ -49,7 +56,27 @@ And queue macro for Healing rain / Surging Totem if you want preshot damage inc
 
 
 -------------------------------------------------------------------------------------------------------
+**==> Paladin Holy RAID only <==**
 
+*Raid talent 12.0.7 : 
 
+  v1.11:
+  - OOC added : Devotion and Crusader aura when mount / Beacon Tank / Rite of Sanctification
+  - Utility : LOH and BoS Selector roles (Tank / Heal / Dps) 
+  - Logic for optimal healing (Hand of divinity / Infusion of light/ Divine toll logic) 
+  - Mana management recovery with SotR
+  - Tier Set : OK
+  - Gameplay style : Holy light Mode : Instant only or Fast Infusion proc
+  <img width="495" height="48" alt="image" src="https://github.com/user-attachments/assets/e03e5d2a-20ff-4390-b310-39f6a02ab481" />
+  - Many Custom Slider's : Hp% and count target  (default is my settings)
+  - Arcane Torrent for 1 Holy power when no generators ready
+  - Mouseover healing spell : Selector
+<img width="266" height="155" alt="image" src="https://github.com/user-attachments/assets/0864bff6-aa02-43f5-a42a-766ed0c0059d" />
 
+/!\ / Recommend \ /!\ 
+
+=> Manual use : CD as Avenging Wrath / Aura Mastery 
+
+=> Queue macro :  Aura Mastery 
+    
   - ---------------------------------------------------------------------------------------------------
