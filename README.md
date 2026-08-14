@@ -58,12 +58,9 @@ And queue macro for Healing rain / Surging Totem if you want preshot damage inc
 -------------------------------------------------------------------------------------------------------
 **==> Paladin Holy RAID only <==**
 
-**Note : We don't yet know what the final raid gameplay will look like for patch 12.1—specifically, whether we'll be using LoD or WoG/EF as our finisher. You can use the sliders to adjust settings based on your choice.
-By default, the finisher is set to LoD; if you're using WoG, raise that slider to 85 (for example) and lower the LoD slider significantly, or use a macro to block the LoD spell.**
+*Raid talent 12.1 : CEEAzbn3egSOtoSwvPw1U1vTLAAAALAwMAAw2MzMjZMzYxYmZYZwMLmpJGGzMDjZLDADYYDsxyMmZZ2mZmtGAAAgFAYzwYGzwMAAmZYGjRDA
 
-*Raid talent 12.0.7 : CEEAVg1HmQqr1Dwlv86ljju8vCAAAYBAMAAglxMzYGzMzGjxYWGbzMLzoJGzYmZYY2yAwAG2AbsMjZWmtZmZrBAAAYBA2MMmxMAAgZGmxY0A
-
-Best mythic raid heal parses : Many 95 + with 290 ilvl / with semi retribution gear
+12.0.7 Best mythic raid heal parses : Many 95 + with 290 ilvl / with semi retribution gear
 
   v1.123:
   - Update : WoG/EF prio for 12.1 and add Beacon of Virtue with slider / count
