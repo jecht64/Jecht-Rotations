@@ -16,6 +16,7 @@ Not having many devs in raid rota healing, I decided to give it a go! I welcome 
 > This allows you to manually cast spells—such as dispels—by pausing the automation while you cast (e.g., using Shift as the modifier, so the Clique binding becomes Shift + Left Click for example with Cleanse spell).
 
 ----------------------------------------------------------------------------------------------------------------
+>  <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/2065c234-d6d0-4f76-85ed-dfafc11e14c0" /> Fire Mage M+/raid : 12.1 (Sunfury) version 1.461
 
 >  <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/c47be15d-f363-4a0c-9f85-05bbfe2bf94a" /> Resto Shaman RAID : OK version 1.11
 
@@ -86,3 +87,17 @@ And queue macro for Healing rain / Surging Totem if you want preshot damage inc
 => Queue macro :  Aura Mastery 
     
   - ---------------------------------------------------------------------------------------------------
+**==> Fire Mage <==**
+
+M+ talent : C8DAche08tHz49KSVf7iKFnyuNzwYZmZmFMzIzMzMAAAGAwMz0sstNDAwmZmx2MzMzYDAAAAALmZmZAAgZMmZmZMzsNAMzQYMgZYMA
+Raid talent : C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMzIzMzAAAwAAmZmmlttZAA2MzM2mZmZGLAAAAAYxMjZAAgZMmZmZMzsMAMzQGjBMDjB
+
+v1.461 : 
+- Update : Simc logic with wow head guide
+- OOC added : Arcane intellect Buff / Blazing barrier (only when you have 2 charges OOC / Rota ON)
+- Utility : Spellsteal / Remove curse / Mirror image
+- Interrupt ST / AOE : Dragon Breath or supernova if talented
+- Slider's for Defensives
+- Option for Sync Meteor + Combustion with timer set
+- IMPORTANT : You can use Meteor auto spell ground by using this maccro in keybind IG : /cast [nochanneling] Single-Button Assistant (Don't touch ms in config about Meteor macro offset)
+- Prio rotation in movement work
