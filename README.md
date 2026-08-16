@@ -89,6 +89,8 @@ And queue macro for Healing rain / Surging Totem if you want preshot damage inc
   - ---------------------------------------------------------------------------------------------------
 **==> Fire Mage <==**
 
+=> My first ranged rotation /!\
+
 M+ talent : C8DAche08tHz49KSVf7iKFnyuNzwYZmZmFMzIzMzMAAAGAwMz0sstNDAwmZmx2MzMzYDAAAAALmZmZAAgZMmZmZMzsNAMzQYMgZYMA
 Raid talent : C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMzIzMzAAAwAAmZmmlttZAA2MzM2mZmZGLAAAAAYxMjZAAgZMmZmZMzsMAMzQGjBMDjB
 
