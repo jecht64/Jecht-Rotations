@@ -110,7 +110,13 @@ v1.464 :
 BIG update : **Update Fire mage v1.464 :**
 
 -Meteor-macro GCD race and reliability tuning (offset sliders + underlying ms→seconds fix)
+
 -Hyperthermia added as a valid trigger for instant Pyroblast/Flamestrike (movement, filler, queue, stop_casting safety)
+
 -Opportunistic Fire Blast during guaranteed-crit windows (Hyperthermia/Pyroclasm in flight)
+
 -Scorch fixed as the correct unconditional Combustion filler (was wrongly execute-only, falling back to Fireball)
+
 -Double Pyroblast: guarded against the known Flamestrike→Flamestrike chain bug by falling back to Pyroblast in that exact case
+
+------------------------------------------------------------------------
