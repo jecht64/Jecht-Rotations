@@ -1,8 +1,8 @@
-version: 1.461
+version: 1.464
 author: Jecht
 class: Mage
 spec: 63
-name: Jecht Fire Mage v1.461
+name: Jecht Fire Mage v1.464
 description: Fire Mage 12.1 M+ and raid
  
 entry: main
@@ -150,6 +150,14 @@ variables:
   # enemies.combat.40y did. That old metric could say "AoE is fine" even when the other combat-flagged
   # enemies were nowhere near where Flamestrike actually lands (centered on target).
   flamestrike_ok: "enemies.around_target>=var.flamestrike_threshold"
+
+  # Known long-standing bug: a hard-cast Flamestrike (Pyroclasm) queued straight into ANOTHER Hot Streak
+  # Flamestrike (the Double Pyroblast setup) does not correctly trigger the double-crit -> fresh Hot Streak
+  # chain. Cross-spell chaining (e.g. hard-cast Flamestrike into a Hot Streak Pyroblast, or vice versa) is fine -
+  # only the exact same spell back-to-back is affected. This detects "currently mid-cast of a Flamestrike" so
+  # the queue can fall back to Pyroblast instead in that one specific case.
+  flamestrike_chain_bugged: "player.casting.spell_id=1254851"
+  flamestrike_will_fire: "var.flamestrike_ok&talent.fuel_the_fire&!var.flamestrike_chain_bugged"
   
   is_sunfury: "(config.hero_tree=1)|(config.hero_tree=0&talent.spellfire_spheres)"
   is_frostfire: "(config.hero_tree=2)|(config.hero_tree=0&talent.frostfire_bolt)"
@@ -202,13 +210,13 @@ variables:
 # ============================================================================
 lists:
   sanity_checks:
-    - stop_casting,if=player.combat&player.casting.spell_id=11366&buff.hot_streak.down&buff.pyroclasm.down
-    - stop_casting,if=player.combat&player.casting.spell_id=1254851&buff.hot_streak.down&!buff.pyroclasm.up
+    - stop_casting,if=player.combat&player.casting.spell_id=11366&buff.hot_streak.down&buff.hyperthermia.down&buff.pyroclasm.down
+    - stop_casting,if=player.combat&player.casting.spell_id=1254851&buff.hot_streak.down&buff.hyperthermia.down&!buff.pyroclasm.up
     - call_action_list,name=emergency
 
   spell_queue:
-    - queue_spell,spell=flamestrike,if=var.flamestrike_ok&talent.fuel_the_fire&(buff.hot_streak.up|var.pyroclasm_ready)&(player.casting&player.casting.remains<=var.cast_remains_time|player.channeling&player.channeling.remains<=var.cast_remains_time)
-    - queue_spell,spell=pyroblast,if=!var.flamestrike_ok&(buff.hot_streak.up|var.pyroclasm_ready)&(player.casting&player.casting.remains<=var.cast_remains_time|player.channeling&player.channeling.remains<=var.cast_remains_time)
+    - queue_spell,spell=flamestrike,if=var.flamestrike_will_fire&(buff.hot_streak.up|buff.hyperthermia.up|var.pyroclasm_ready)&(player.casting&player.casting.remains<=var.cast_remains_time|player.channeling&player.channeling.remains<=var.cast_remains_time)
+    - queue_spell,spell=pyroblast,if=!var.flamestrike_will_fire&(buff.hot_streak.up|buff.hyperthermia.up|var.pyroclasm_ready)&(player.casting&player.casting.remains<=var.cast_remains_time|player.channeling&player.channeling.remains<=var.cast_remains_time)
     - queue_spell,spell=combustion,if=cooldown.combustion.ready&player.combat&target.valid&var.meteor_synced&(player.casting&player.casting.remains<=var.cast_remains_time|player.channeling&player.channeling.remains<=var.cast_remains_time)
 
   emergency:
@@ -228,14 +236,15 @@ lists:
   movement:
     - call_action_list,name=emergency
     - meteor,range_check=none,if=cooldown.meteor.remains<=var.meteor_macro_delay_s&target.valid
-    - flamestrike,if=var.flamestrike_ok&talent.fuel_the_fire&buff.hot_streak.up,ignore_movement=true
-    - pyroblast,if=!var.flamestrike_ok&buff.hot_streak.up,ignore_movement=true
+    - flamestrike,if=var.flamestrike_ok&talent.fuel_the_fire&(buff.hot_streak.up|buff.hyperthermia.up),ignore_movement=true
+    - pyroblast,if=!var.flamestrike_ok&(buff.hot_streak.up|buff.hyperthermia.up),ignore_movement=true
     - fire_blast,use_off_gcd=1,use_while_casting=1,interrupt=true,ignore_movement=true,if=state.rotation&(buff.heating_up.up&buff.hot_streak.down&gcd.remains<gcd.max)
     - scorch,ignore_movement=true
     - return
 
   fireblast:
     - fire_blast,ignore_movement=true,use_off_gcd=1,use_while_casting=1,interrupt=true,if=state.rotation&(buff.heating_up.up&buff.hot_streak.down&gcd.remains<gcd.max)
+    - fire_blast,ignore_movement=true,use_off_gcd=1,use_while_casting=1,interrupt=true,if=state.rotation&(player.casting.spell_id=11366|player.casting.spell_id=1254851)&(buff.hyperthermia.up|buff.pyroclasm.up)&buff.hot_streak.down
     - fire_blast,ignore_movement=true,use_off_gcd=1,use_while_casting=1,interrupt=true,if=state.rotation&(cooldown.combustion.remains>8&buff.hot_streak.down&cooldown.fire_blast.charges_fractional>=2.9)
     - fire_blast,ignore_movement=true,use_off_gcd=1,use_while_casting=1,interrupt=true,if=state.rotation&(buff.combustion.up&buff.hot_streak.down&cooldown.fire_blast.charges_fractional>=1.2&gcd.remains<gcd.max)
 
@@ -258,13 +267,12 @@ lists:
     - flamestrike,if=var.flamestrike_ok&talent.fuel_the_fire&(buff.hot_streak.up|var.pyroclasm_ready)
     - pyroblast,if=!var.flamestrike_ok&(buff.hot_streak.up|var.pyroclasm_ready)
     - call_action_list,name=fireblast
-    - scorch,if=var.execute&buff.hot_streak.down
-    - frostfire_bolt,if=talent.frostfire_bolt&buff.hot_streak.down
+    - scorch,if=buff.hot_streak.down
 
   ff_filler:
     - meteor,if=var.meteor_priority_boost
-    - flamestrike,if=var.flamestrike_ok&talent.fuel_the_fire&(buff.hot_streak.up|var.pyroclasm_ready)
-    - pyroblast,if=!var.flamestrike_ok&(buff.hot_streak.up|var.pyroclasm_ready)
+    - flamestrike,if=var.flamestrike_ok&talent.fuel_the_fire&(buff.hot_streak.up|buff.hyperthermia.up|var.pyroclasm_ready)
+    - pyroblast,if=!var.flamestrike_ok&(buff.hot_streak.up|buff.hyperthermia.up|var.pyroclasm_ready)
     - scorch,if=buff.heat_shimmer.up|var.execute
     - meteor,if=cooldown.meteor.remains<=var.meteor_macro_delay_s&target.valid
     - frostfire_bolt,if=talent.frostfire_bolt
@@ -276,13 +284,13 @@ lists:
     - flamestrike,if=var.flamestrike_ok&talent.fuel_the_fire&(buff.hot_streak.up|var.pyroclasm_ready)
     - pyroblast,if=!var.flamestrike_ok&(buff.hot_streak.up|var.pyroclasm_ready)
     - call_action_list,name=fireblast
-    - scorch,if=var.execute&buff.hot_streak.down
+    - scorch,if=buff.hot_streak.down
     - fireball,if=buff.combustion.down&buff.hot_streak.down
 
   sf_filler:
     - meteor,if=var.meteor_priority_boost
-    - flamestrike,if=var.flamestrike_ok&talent.fuel_the_fire&(buff.hot_streak.up|var.pyroclasm_ready)
-    - pyroblast,if=!var.flamestrike_ok&(buff.hot_streak.up|var.pyroclasm_ready)
+    - flamestrike,if=var.flamestrike_ok&talent.fuel_the_fire&(buff.hot_streak.up|buff.hyperthermia.up|var.pyroclasm_ready)
+    - pyroblast,if=!var.flamestrike_ok&(buff.hot_streak.up|buff.hyperthermia.up|var.pyroclasm_ready)
     - scorch,if=buff.heat_shimmer.up|var.execute
     - meteor,if=cooldown.meteor.remains<=var.meteor_macro_delay_s&target.valid
     - fireball
