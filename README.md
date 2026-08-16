@@ -99,5 +99,9 @@ v1.461 :
 - Interrupt ST / AOE : Dragon Breath or supernova if talented
 - Slider's for Defensives
 - Option for Sync Meteor + Combustion with timer set
-- IMPORTANT : You can use Meteor auto spell ground by using this maccro in keybind IG : /cast [nochanneling] Single-Button Assistant (Don't touch ms in config about Meteor macro offset)
 - Prio rotation in movement work
+- IMPORTANT : You can use Meteor auto spell ground by using this maccro in keybind IG : /cast [nochanneling] Single-Button Assistant (Don't touch ms in config about Meteor macro offset)
+
+<img width="402" height="102" alt="image" src="https://github.com/user-attachments/assets/b82791e5-908d-498d-8ed2-8b25aee01423" />
+
+
