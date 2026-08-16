@@ -102,6 +102,7 @@ v1.461 :
 - Slider's for Defensives
 - Option for Sync Meteor + Combustion with timer set
 - Prio rotation in movement work
+- => Flamestrike AOE for enemies around your primary target
 - IMPORTANT : You can use Meteor auto spell ground by using this maccro in keybind IG : /cast [nochanneling] Single-Button Assistant (Don't touch ms in config about Meteor macro offset)
 
 <img width="402" height="102" alt="image" src="https://github.com/user-attachments/assets/b82791e5-908d-498d-8ed2-8b25aee01423" />
