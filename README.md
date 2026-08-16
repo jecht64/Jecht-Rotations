@@ -94,7 +94,7 @@ And queue macro for Healing rain / Surging Totem if you want preshot damage inc
 M+ talent : C8DAche08tHz49KSVf7iKFnyuNzwYZmZmFMzIzMzMAAAGAwMz0sstNDAwmZmx2MzMzYDAAAAALmZmZAAgZMmZmZMzsNAMzQYMgZYMA
 Raid talent : C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMzIzMzAAAwAAmZmmlttZAA2MzM2mZmZGLAAAAAYxMjZAAgZMmZmZMzsMAMzQGjBMDjB
 
-v1.461 : 
+v1.464 : 
 - Update : Simc logic with wow head guide
 - OOC added : Arcane intellect Buff / Blazing barrier (only when you have 2 charges OOC / Rota ON)
 - Utility : Spellsteal / Remove curse / Mirror image
@@ -107,4 +107,10 @@ v1.461 :
 
 <img width="402" height="102" alt="image" src="https://github.com/user-attachments/assets/b82791e5-908d-498d-8ed2-8b25aee01423" />
 
+BIG update : **Update Fire mage v1.464 :**
 
+-Meteor-macro GCD race and reliability tuning (offset sliders + underlying ms→seconds fix)
+-Hyperthermia added as a valid trigger for instant Pyroblast/Flamestrike (movement, filler, queue, stop_casting safety)
+-Opportunistic Fire Blast during guaranteed-crit windows (Hyperthermia/Pyroclasm in flight)
+-Scorch fixed as the correct unconditional Combustion filler (was wrongly execute-only, falling back to Fireball)
+-Double Pyroblast: guarded against the known Flamestrike→Flamestrike chain bug by falling back to Pyroblast in that exact case
